@@ -1,0 +1,23 @@
+{
+  "name": "jest-babel",
+  "version": "1.0.1",
+  "description": "Simple Babel preprocessor for Jest",
+  "main": "index.js",
+  "repository": "silentroach/jest-babel",
+  "keywords": [
+    "jest",
+    "babel",
+    "preprocessor",
+    "es6",
+    "es7"
+  ],
+  "author": "Igor Kalashnikov <igor.kalashnikov@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentroach/jest-babel/issues"
+  },
+  "homepage": "https://github.com/silentroach/jest-babel#readme",
+  "peerDependencies": {
+    "babel-core": ">= 5.5.0 < 6"
+  }
+}
