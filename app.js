@@ -3,8 +3,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const typeDefs = require('./recipes/schema.js');
 const resolvers = require('./recipes/resolvers.js');
-const uri = "mongodb+srv://lucianli:7g567M9L@cookbook-cluster.fznt3xw.mongodb.net/?retryWrites=true&w=majority&appName=cookbook-cluster";
-
+const uri = require('./constants.js');
 const app = express();
 
 // Create an Apollo server
